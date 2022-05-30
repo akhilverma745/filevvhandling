@@ -1,0 +1,7 @@
+def file_read(abcd):
+        content_array = []
+        with open(abcd) as f:
+                 for line in f:
+                        content_array.append(line)
+                print(content_array)
+file_read('test.txt')
